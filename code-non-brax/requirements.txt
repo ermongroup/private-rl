@@ -1,0 +1,11 @@
+The easiest way to install the requirements is to use anaconda and the provided
+environment.yml file. You will then need to run `pip install jaxlib==0.1.69`.
+
+Otherwise you can install the packages below:
+
+python 3.8
+jax
+pandas
+matplotlib
+scikit-learn
+haiku

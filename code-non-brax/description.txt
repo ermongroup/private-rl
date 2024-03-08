@@ -1,0 +1,22 @@
+This is the code for the tabular and continuous model-based and model-free estimators in the paper
+(i.e. all the experiments except for the reparameterized estimator with brax).
+
+
+To get the 2d continuous control plots, run
+`python continuous_main.py`
+
+To get the SNAP plots (in the appendix), run
+`python tabular_main.py --experiment_name "snap"`
+
+To get the VPN plots, run
+`python tabular_main.py --experiment_name "vpn"`
+
+To get the Customer Service Center plots (shown in the appendix), run
+`python tabular_main.py --experiment_name "customer"`
+
+To get the Customer Service Center plots (shown in the appendix) with the model-free algorithm, run
+`python model-free-main.py`
+
+
+
+
